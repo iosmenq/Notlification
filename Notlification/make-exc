@@ -1,0 +1,13 @@
+SDK=/usr/share/SDKs/iPhoneOS.sdk
+
+clang *.m \
+  -isysroot $SDK \
+  -I$SDK/usr/include \
+  -F$SDK/System/Library/Frameworks \
+  -framework UIKit \
+  -framework Foundation \
+  -framework UserNotifications \
+  -framework CoreGraphics \
+  -framework QuartzCore \
+  -lobjc \
+  -o notlification
