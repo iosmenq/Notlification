@@ -1,3 +1,13 @@
+/*
+* ViewController.m
+*
+* codded by iosmen (c) 2025
+*
+* send notifications via all user applications (jailbreak required!!!)
+*/
+
+
+
 #import "ViewController.h"
 #import <UserNotifications/UserNotifications.h>
 
@@ -124,3 +134,4 @@
 }
 
 @end
+
