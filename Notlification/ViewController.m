@@ -1,7 +1,7 @@
 /*
 * ViewController.m
 *
-* codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 *
 * send notifications via all user applications (jailbreak required!!!)
 */
@@ -134,4 +134,5 @@
 }
 
 @end
+
 
